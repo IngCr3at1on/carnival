@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package proto;
+option go_package = "proto";
+
+// Job runs a new job inside the carnival.
+message Job {
+    string body = 10;
+}
